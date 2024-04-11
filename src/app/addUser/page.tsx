@@ -1,14 +1,16 @@
 import Navbar from '@/components/Navbar'
-import MyHome from '../components/TableSelection'
-const Home = () => {
+import UserList from '@/components/UserList'
+import React from 'react'
+
+const Adduser = () => {
   return (
     <div className='overflow-x-hidden'>
     <Navbar/>
     <div className='p-20'>
-      <MyHome/>
+      <UserList/>
     </div>
     </div>
   )
 }
 
-export default Home
+export default Adduser
